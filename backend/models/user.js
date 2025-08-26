@@ -9,7 +9,7 @@ class User {
       `;
       
       db.query(query, [
-        userData.name,
+        userData.namee,
         userData.email,
         userData.password,
         userData.gender,
