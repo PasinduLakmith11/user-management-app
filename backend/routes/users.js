@@ -7,4 +7,4 @@ const router = express.Router();
 router.get('/', authMiddleware, getAllUsers);
 router.get('/:id', authMiddleware, getUserById);
 
-export default routerr;
+export default router;
